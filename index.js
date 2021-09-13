@@ -15,5 +15,5 @@ app.get('/:id', async (request, response) => {
 app.get('/', async (request, response) => {
     response.send("enter the Country code");
 });
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 8080;
 app.listen(port, () => console.log(`App available on http://localhost:${port}`))
